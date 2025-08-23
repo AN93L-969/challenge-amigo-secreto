@@ -34,3 +34,22 @@ function actualizarLista(lista) {
         contenidoLista.innerHTML += `<li>${lista[i]}</li>`;
     }
 }
+
+/* 
+El objetivo de la siguiente función es sortear de manera aletoria
+uno de los nombres que contiene el array "amigos", con de la función
+math.random() y math.floor() se generara un número aleatorio el cual
+se lo asignaremos a un indice del array para luego mostrar el nombre
+sorrteado en el HTML.
+*/
+function sortearAmigo() {
+    //Validamos que el array no este vacio.
+     if (amigos.length == 0) {
+        alert("No hay amigos listados para sortear.");
+     }else {
+        let indice = Math.floor(Math.random() * amigos.length);
+        let amigoSorteado = amigos[indice];
+        
+        document.getElementById("resultado").innerHTML = `El amigo sorteado es: <strong>${amigoSorteado}</strong>`;
+     }
+}
