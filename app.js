@@ -1,5 +1,5 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-let amigos = []; //Esta varibale alamecenara los nombres de los amigos que ingresara el ususario.
+let listaAmigos = []; //Esta varibale alamecenara los nombres de los amigos que ingresara el ususario.
 
 /* 
 La siguiente función tiene como objetivo agregar el nombre que ingrese el usuario
@@ -13,7 +13,7 @@ function agregarAmigo() {
         alert("Por favor, ingrese un nombre.");
 
     } else {
-        amigos.push(amigo);
+        listaAmigos.push(amigo);
         document.getElementById("amigo").value = "";
     }
 }
