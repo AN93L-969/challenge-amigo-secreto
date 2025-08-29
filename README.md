@@ -1,6 +1,6 @@
 <h1>Juego del amigo secreto</h1>
 
-<h2>- Descripcion del proyecto:<h2>
+<h2>- Descripcion del proyecto:</h2>
 
 Este proyecto fue un challenge propuesto por el equipo de Oracle Next Education y Alura Latam, el cual tenia como finalidad poner en practica lo aprendido en sus cursos, proporcionando el arrchivo del codigo con unicamente los archivos HTML y CSS para que pudiese desarrollar el archivo app.js el cual contiene toda la logica del sistema.
 
