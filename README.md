@@ -25,3 +25,7 @@ Puede solicitar asistencia técnica por cualquier inconveniente o duda a travez 
 <h2>- Autores del proyecto:</h2>
 
 Desarrollador de la logica del sistema: Angel Meléndez.C
+
+<h2>- Enlace para jugar y probar el sistema:</h2>
+
+Sitio web del juego: https://an93l-969.github.io/challenge-amigo-secreto/
